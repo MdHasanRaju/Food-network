@@ -2,7 +2,7 @@ body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
-.banner-section, .about-section, .total-recipie-features {
+.banner-section {
     display: flex;
 }
 .banner-section{
@@ -26,7 +26,6 @@ body{
     margin-top: -10px;
     font-size: 20px;
 }
-.div-width a{}
 .div-width img{
     padding-top: 10px;
 }
@@ -34,14 +33,13 @@ body{
     text-decoration: none;
     color: white;
     background-image: linear-gradient(#b30841,#F844BC);
-    border: 1px solid transparent;
     border-radius: 50px;
     padding: 10px 20px;
     box-shadow: 3px 3px 20px #ff0055;
 }
 
-/* About section */
 .about-section {
+    display: flex;
     padding: 30px 100px 0px 100px;
     background-image: url(food-image/Frame\ 59.jpg);
     background-repeat: no-repeat;
@@ -62,9 +60,6 @@ body{
     margin-top: 40px;
     font-size: 20px;
 }
-.half-width a{}
-
-/* Recipie Section */
 
 .recipie-section{
     padding: 80px 20px;
@@ -79,9 +74,8 @@ body{
     margin: auto;
     margin-bottom: 30px;
 }
-
 .total-recipie-features{
-        
+    display: flex;
 }
 .recipie-feature{
     width: 30%;
@@ -103,10 +97,7 @@ body{
     text-align: left
 }
 
-/* social-section */
-
 .social-section{
-    border: 1px solid transparent;
     padding: 40px 45px;
     padding-bottom: 120px;
 }
@@ -128,8 +119,6 @@ body{
 .social-counts p{
    margin-top: 0px;
 }
-
-/* footer */
 
 footer {
     background-color: #0B0E17;

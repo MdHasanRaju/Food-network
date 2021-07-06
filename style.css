@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-section, .about-section, .total-recipie-features {
+    display: flex;
+}
+.banner-section{
+    padding-bottom: 50px;
+}
+.div-width{
+   margin-left: 2%;
+   width: 48%;
+}
+.div-width h1{
+    margin-top: 140px;
+    font-size: 65px;
+}
+.text-color{
+    color: #E5293D;
+}
+.div-width p{
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.div-width a{}
+.div-width img{
+    padding-top: 10px;
+}
+.button-color{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#b30841,#ff0055);
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 20px #ff0055;
+}
+
+/* About section */
+.about-section {
+    padding: 30px 100px 0px 100px;
+    background-image: url(food-image/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 70%;
+}
+.half-width h1{
+    font-size: 50px;
+    color: gray;
+}
+.half-width p{
+    margin-bottom: 110px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.half-width a{}
+
+/* Recipie Section */
+
+.recipie-section{
+    padding: 80px 0px;
+}
+.recipie-section h1{
+    font-size: 30px;
+    text-align: center;
+}
+.recipie-section p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.total-recipie-features{
+        
+}
+.recipie-feature{
+    width: 30%;
+    margin: 0 2%;
+    box-shadow: 1px 1px 20px grey;
+    padding: 25px;
+    border-radius: 30px;
+
+}
+.recipie-feature img{
+        width: 100%;
+        border-radius: 20px;
+}
+.recipie-feature h3{
+    text-align: center;
+}
+.recipie-feature p{
+    width: 100%;
+    text-align: left
+}
+
+/* social-section */
+
+.social-section{
+    border: 1px solid transparent;
+    padding: 40px 25px;
+    padding-bottom: 120px;
+}
+.div-wrap{
+    display: flex;
+    box-shadow: 2px 3px 5px grey;
+    border-radius: 20px;
+    padding: 25px 0px;
+    box-shadow: 2px 2px 25px grey;
+}
+.social-counts{
+    width: 33.33%;
+    padding-left: 12%;
+}
+.social-counts h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+.social-counts p{
+   margin-top: 0px;
+}
+
+/* footer */
+
+footer {
+    background-color: #0B0E17;
+    
+}
+.footer-span-color{
+    color: #C8713D;
+}
+footer h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #5B5B5B;
+    padding-top: 20px;
+    font-weight: 500;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding-bottom: 80px;
+}
+
+
